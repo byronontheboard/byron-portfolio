@@ -1,0 +1,42 @@
+/* Define the keyframes for the wiggle animation */
+@keyframes wiggle {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(-5deg);
+    }
+    75% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* Basic styling for the element */
+.wiggle-on-hover {
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background-color: #3498db; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: white; */
+    /* font-weight: bold; */
+    cursor: pointer;
+}
+/* Apply the animation to the element when hovered over */
+.wiggle-on-hover:hover {
+    animation: wiggle 0.5s ease infinite;
+}
+
+.grow {
+    transition: ease-in-out .3s;
+}
+.grow:hover {
+    transform: scale(1.05);
+}  
