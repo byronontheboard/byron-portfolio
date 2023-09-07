@@ -17,21 +17,21 @@ function About() {
         {/* Personal */}
         <div className='row d-flex align-items-center'>
           <h2 className='header d-flex justify-content-start'>MY CHILD</h2>
-          <div className='glow col-9'>
+          <div className='glow col-8'>
             <p className='my-0 p-3 isabelline-bg border-color rounded'>
               "My given name is Benjamin Buford Blue, but people call me Bubba. Just like one of them ol' redneck boys. Can you believe that?" - Bubba Buford
             </p>
           </div>
           {/* Picture */}
-          <img className='glow col-3 rounded border-color isabelline-bg p-3' src="src/components/About/Content/Dog.jpeg" alt="Description of the image" />
+          <img className='glow col-4 rounded border-color isabelline-bg p-3' src="src/components/About/Content/Dog.jpeg" alt="Description of the image" />
         </div>
         <hr />
         {/* Education */}
         <div className='row d-flex align-items-center'>
           {/* Picture */}
           <h2 className='header d-flex justify-content-end'>TRADING CARDS</h2>
-          <img className='glow col-3 rounded border-color isabelline-bg p-3' src="src/components/About/Content/Collect.jpeg" alt="Description of the image" />
-          <div className='glow col-9'>
+          <img className='glow col-4 rounded border-color isabelline-bg p-3' src="src/components/About/Content/Collect.jpeg" alt="Description of the image" />
+          <div className='glow col-8'>
             <p className='my-0 p-3 isabelline-bg border-color rounded'>
               "My given name is Benjamin Buford Blue, but people call me Bubba. Just like one of them ol' redneck boys. Can you believe that?" - Bubba Buford
             </p>
@@ -41,15 +41,26 @@ function About() {
         <div className='row d-flex align-items-center'>
           {/* Hobbies */}
           <h2 className='header d-flex justify-content-start'>AUDIO PRODUCTION</h2>
-          <div className='glow col-6'>
+          <div className='glow col-8'>
             <p className='my-0 p-3 isabelline-bg border-color rounded'>
               "My given name is Benjamin Buford Blue, but people call me Bubba. Just like one of them ol' redneck boys. Can you believe that?" - Bubba Buford
             </p>
           </div>
 
-          <video className='glow col-6 rounded border-color isabelline-bg p-3' controls>
+          <div className='glow col-4 rounded border-color isabelline-bg p-3' controls>
+            <iframe 
+              src="https://www.youtube.com/embed/kfGsWrjX47U"
+              width="100%"
+              height="100%"
+              title="YouTube Video" 
+              type='video/mp4'
+              controls
+              allowFullScreen
+              />
+          </div>
+          {/* <video className='glow col-6 rounded border-color isabelline-bg p-3' controls>
             <source src='src/components/About/Content/AUTUMN VIDEO.mp4' type='video/mp4'/>
-          </video>
+          </video> */}
         </div>  
     </section>
   );

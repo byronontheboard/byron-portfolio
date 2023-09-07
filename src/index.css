@@ -48,7 +48,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background: var(--rose-quartz);
-  animation: ease-in-out changeBackgroundColor 8s linear infinite;
+  animation: changeBackgroundColor 8s linear infinite;
   /* transition: ease-in-out; */
 }
 
