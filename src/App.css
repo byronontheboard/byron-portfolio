@@ -43,7 +43,7 @@
       background-color: var(--ebony);
   } */
   33% {
-      color: var(--rose-quartz);
+      /* color: var(--rose-quartz); */
   }
   66% {
       color: var(--french-gray);

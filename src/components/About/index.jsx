@@ -65,7 +65,7 @@ function About() {
             </p>
           </div>
 
-          <div className='glow col-4 rounded border-color isabelline-bg p-3' controls>
+          <div className='glow col-4 rounded border-color isabelline-bg p-3 d-flex align-items-center' controls>
             <iframe 
               src="https://www.youtube.com/embed/kfGsWrjX47U"
               width="100%"

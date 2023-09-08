@@ -33,7 +33,47 @@ function Resume() {
             </p>
           </div>
         </div>
+
+        <div className='row d-flex align-items-center justify-content-center'>
+          <h2 className='header d-flex justify-content-start'>EDUCATION</h2>
+        </div>
+        
+        {/* University of California Davis Full-Stack Developer Cetification */}
+        <div className='row d-flex align-items-center'>
+          <h2 className='header d-flex justify-content-end'>University of California Davis</h2>
+          <p className='header d-flex justify-content-end'>Full-Stack Developer Certification</p>
+          <p className='header d-flex justify-content-end'>March 2023-September 2023</p>
+          <div className='glow col-12'>
+            <p className='my-0 p-3 isabelline-bg border-color rounded'>
+            
+            </p>
+          </div>
+        </div>
+        {/* Sacramento City College */}
+        <div className='row d-flex align-items-center'>
+          <h2 className='header d-flex justify-content-end'>Sacramento City College</h2>
+          <p className='header d-flex justify-content-end'>Associate in Commercial Music, Audio Production</p>
+          <p className='header d-flex justify-content-end'>August 2020-December 2022</p>
+          <div className='glow col-12'>
+            <p className='my-0 p-3 isabelline-bg border-color rounded'>
+            
+            </p>
+          </div>
+        </div>
+        {/* Solano Community College */}
+        <div className='row d-flex align-items-center'>
+          <h2 className='header d-flex justify-content-end'>Sacramento City College</h2>
+          <p className='header d-flex justify-content-end'>Associates of Arts in Liberal Arts & Sciences Degree</p>
+          <p className='header d-flex justify-content-end'>August 2018-July 2019</p>
+          <div className='glow col-12'>
+            <p className='my-0 p-3 isabelline-bg border-color rounded'>
+            
+            </p>
+          </div>
+        </div>
         <hr />
+
+        {/* Employment */}
         <div className='row d-flex align-items-center justify-content-center'>
           <h2 className='header d-flex justify-content-start'>EMPLOYMENT</h2>
         </div>
@@ -44,20 +84,19 @@ function Resume() {
           <p className='header d-flex justify-content-end'>Senior Deli Clerk | February 2023-June 2023</p>
           <div className='glow col-12'>
             <p className='my-0 p-3 isabelline-bg border-color rounded'>
-            When I'm not with my family or partner, 
-            my time is often devoted to caring for my child, Keyana.
+            
             </p>
           </div>
         </div>
-        <hr />
+
         {/* DoorDash */}
         <div className='row d-flex align-items-center'>
           <h2 className='header d-flex justify-content-end'>DoorDash</h2>
           <p className='header d-flex justify-content-end'>Independent Contractor | July 2021-January 2020</p>
           <div className='glow col-12'>
             <p className='my-0 p-3 isabelline-bg border-color rounded'>
-            When I'm not with my family or partner, 
-            my time is often devoted to caring for my child, Keyana.
+            Efficiently collecting and delivering customer orders, 
+            coupled with exceptional customer service and ensuring a timely order fulfillment.
             </p>
           </div>
         </div>
