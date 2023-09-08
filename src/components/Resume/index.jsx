@@ -4,12 +4,10 @@ function Resume() {
 
   return (
     <section className="text container-fluid d-grid gap-5 rounded col-12">
-        {/* Profile Picture */}
         {/* Space */}
         <div className='row justify-content-center'></div>    
 
         {/* Profile */}
-        
         <div className='row d-flex align-items-center justify-content-center'>
           <h2 className='header d-flex justify-content-start'>PROFILE</h2>
           <div className='glow col-10'>
@@ -34,42 +32,29 @@ function Resume() {
           </div>
         </div>
 
+        <hr />
+
+        {/* Education */}
         <div className='row d-flex align-items-center justify-content-center'>
-          <h2 className='header d-flex justify-content-start'>EDUCATION</h2>
+          <h2 className='header d-flex justify-content-end'>EDUCATION</h2>
         </div>
-        
         {/* University of California Davis Full-Stack Developer Cetification */}
         <div className='row d-flex align-items-center'>
-          <h2 className='header d-flex justify-content-end'>University of California Davis</h2>
-          <p className='header d-flex justify-content-end'>Full-Stack Developer Certification</p>
-          <p className='header d-flex justify-content-end'>March 2023-September 2023</p>
-          <div className='glow col-12'>
-            <p className='my-0 p-3 isabelline-bg border-color rounded'>
-            
-            </p>
-          </div>
+          <h2 className='header d-flex justify-content-start'>University of California Davis</h2>
+          <p className='header d-flex justify-content-start'>Full-Stack Developer Certification</p>
+          <p className='header d-flex justify-content-start'>March 2023-September 2023</p>
         </div>
         {/* Sacramento City College */}
         <div className='row d-flex align-items-center'>
-          <h2 className='header d-flex justify-content-end'>Sacramento City College</h2>
-          <p className='header d-flex justify-content-end'>Associate in Commercial Music, Audio Production</p>
-          <p className='header d-flex justify-content-end'>August 2020-December 2022</p>
-          <div className='glow col-12'>
-            <p className='my-0 p-3 isabelline-bg border-color rounded'>
-            
-            </p>
-          </div>
+          <h2 className='header d-flex justify-content-startd'>Sacramento City College</h2>
+          <p className='header d-flex justify-content-start'>Associate in Commercial Music, Audio Production</p>
+          <p className='header d-flex justify-content-start'>August 2020-December 2022</p>
         </div>
         {/* Solano Community College */}
         <div className='row d-flex align-items-center'>
-          <h2 className='header d-flex justify-content-end'>Sacramento City College</h2>
-          <p className='header d-flex justify-content-end'>Associates of Arts in Liberal Arts & Sciences Degree</p>
-          <p className='header d-flex justify-content-end'>August 2018-July 2019</p>
-          <div className='glow col-12'>
-            <p className='my-0 p-3 isabelline-bg border-color rounded'>
-            
-            </p>
-          </div>
+          <h2 className='header d-flex justify-content-start'>Sacramento City College</h2>
+          <p className='header d-flex justify-content-start'>Associates of Arts in Liberal Arts & Sciences Degree</p>
+          <p className='header d-flex justify-content-start'>August 2018-July 2019</p>
         </div>
         <hr />
 
@@ -84,11 +69,11 @@ function Resume() {
           <p className='header d-flex justify-content-end'>Senior Deli Clerk | February 2023-June 2023</p>
           <div className='glow col-12'>
             <p className='my-0 p-3 isabelline-bg border-color rounded'>
-            
+              Facilitating informed consumer choices through exemplary customer service. 
+              Responsible for ordering and inventory management, ensuring product quality, and supervising the Deli team.
             </p>
           </div>
         </div>
-
         {/* DoorDash */}
         <div className='row d-flex align-items-center'>
           <h2 className='header d-flex justify-content-end'>DoorDash</h2>
