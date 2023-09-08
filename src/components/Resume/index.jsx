@@ -101,7 +101,7 @@ function Resume() {
 
       <hr />
 
-      <a class='' href="src/components/Resume/Resume-2023.pdf" download="Resume-2023.pdf">
+      <a className='' href="src/components/Resume/Resume-2023.pdf" download="Resume-2023.pdf">
         Download My Resume
       </a>
   
