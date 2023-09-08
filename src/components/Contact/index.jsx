@@ -22,13 +22,14 @@ function Contact() {
           
           <div>
             <h2 className='header d-flex justify-content-start'>Message</h2>
-            <input type="text" className='border rounded col-12'/>
+            <textarea type="text" className='border rounded col-12'/>
           </div>
 
         {/* Space Between */}
           <div></div>
+          <div></div>
 
-          <button className=''>SUBMIT</button>
+          <button className='border rounded isabelline-bg'>SUBMIT</button>
 
         </div>
         <hr />

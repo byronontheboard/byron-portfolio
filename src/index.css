@@ -31,6 +31,29 @@ html {
   scroll-behavior: smooth;
 }
 
+button {
+  color: var(--ebony);
+  outline: solid var(--ebony);
+}
+
+button:hover {
+  transform: scale(.97);
+  transition: transform 0.2s ease-in-out;
+}
+
+input {
+  outline: none;
+}
+input:focus {
+  outline: solid var(--rose-quartz);
+}
+textarea {
+  outline: none;
+}
+textarea:focus {
+  outline: solid var(--rose-quartz);
+}
+
 li {
   list-style: none;
 }
