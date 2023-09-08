@@ -28,9 +28,9 @@
 }
 
 .gif {
-  height: 80%;
+  height: 50%;
   object-fit: cover;
-  object-position: 0 0;
+  object-position: 0 0%;
 }
 
 html {

@@ -63,9 +63,9 @@ function Portfolio() {
           <img className='glow col-12 rounded border-color isabelline-bg p-3 gif' src="src/components/Portfolio/Note-Taker (1).gif" alt="Note Taker" />
           <div className='column'>
             <h3>
-              <a href="https://byronontheboard.github.io/js-password-generator/" target="_blank" rel="noopener noreferrer">Note Taker</a>
+              <a href="https://fathomless-beach-65516-0a022a40b288.herokuapp.com/" target="_blank" rel="noopener noreferrer">Note Taker</a>
             </h3>
-            <a href="https://github.com/byronontheboard/js-password-generator" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/byronontheboard/note-taker-app" target="_blank" rel="noopener noreferrer">
               <Icon></Icon>
             </a>
           </div>
