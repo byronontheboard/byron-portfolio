@@ -57,7 +57,7 @@ body {
 
 @keyframes changeBackgroundColor {
   0% {
-      background-color: var(--battleship-gray);
+      background-color: white;
   }
   25% {
       background-color: var(--mint-green);
@@ -72,7 +72,7 @@ body {
       background-color: var(--french-gray);
   }
   100% {
-      background-color: var(--battleship-gray);
+      background-color: white;
   }
   /* 100% {
       background-color: var(--battleship-gray);

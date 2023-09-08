@@ -1,5 +1,5 @@
 import React from 'react';
-import Portrait from '../Portrait';
+// import Portrait from '../Portrait';
 
 function About() {
 
@@ -19,7 +19,7 @@ function About() {
               <br />
               <br />        
               As a Full Stack Web Developer, I have unearthed a profound passion for the craft, 
-              wholeheartedly immersing myself into the boundless chasm of growth and creativity that this field can offer.
+              wholeheartedly immersing myself into the boundless chasm of growth and creativity that this field has to offer.
             {/* Draft */}
               {/* As an individual, I have committed myself to the philosophy of learning,
               always yearning to build upon my knowledge of yesterday. */}

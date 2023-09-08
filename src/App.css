@@ -201,7 +201,7 @@
 
 @keyframes changeBackgroundColor {
   0% {
-      background-color: var(--battleship-gray);
+      background-color: white;
   }
   20% {
       background-color: var(--ebony);
@@ -216,6 +216,6 @@
       background-color: var(--mint-green);
   }
   100% {
-      background-color: var(--battleship-gray);
+      background-color: white;
   }
 }
