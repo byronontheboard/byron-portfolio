@@ -24,7 +24,7 @@ function Navigation(props) {
           <li
           // Classes for buttons
           className={`
-          rounded font-family wiggle-on-hover
+          rounded font-family wiggle-on-hover click
           ${currentPage.name === Page.name && "navActive"}
           `} key = {Page.name}
           >

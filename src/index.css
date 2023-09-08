@@ -26,6 +26,7 @@
   --isabelline: #f4f3ee;
   --melon: #e0afa0;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -38,12 +39,16 @@ a {
   font-weight: 500;
   text-decoration: none;
 }
-a:hover {
+/* a:hover {
+  
+  color: #8A817C;
+  border: solid #8A817C;
+} */
+
+/* .click {
   transform: scale(.97);
   transition: transform 0.2s ease-in-out;
-  /* color: #8A817C; */
-  /* border: solid #8A817C; */
-}
+} */
 
 body {
   margin: 0;

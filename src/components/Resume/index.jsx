@@ -91,8 +91,9 @@ function Resume() {
           <p className='header d-flex justify-content-end'>Shift Lead | March 2017-January 2020</p>
           <div className='glow col-12'>
             <p className='my-0 p-3 isabelline-bg border-color rounded'>
-            When I'm not with my family or partner, 
-            my time is often devoted to caring for my child, Keyana.
+              Supervising store operations to uphold high standards, managing inventory procurement and delivery logistics. 
+              Scheduling and facilitating employee breaks, onboarding and training new personnel, 
+              overseeing financial transactions including cash deposits, and monitoring food preparation.
             </p>
           </div>
         </div>

@@ -11,7 +11,7 @@ function GitHub() {
         {/* <Portrait></Portrait> */}
         <div className='row d-flex align-items-center justify-content-center'>
           <h2 className='header d-flex justify-content-start'>/byronontheboard</h2>
-          <a href="https://github.com/byronontheboard" target="_blank" rel="noopener noreferrer" className='glow'>
+          <a href="https://github.com/byronontheboard" target="_blank" rel="noopener noreferrer" className='glow wiggle-on-hover'>
             <img className='glow col-8 rounded border-color isabelline-bg p-3' src="src/components/GitHub/GitHub-Logo.jpeg" alt="GitHub" />
           </a>
         </div>
