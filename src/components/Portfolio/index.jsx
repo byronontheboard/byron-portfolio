@@ -56,6 +56,7 @@ function Portfolio() {
         </div>
 
         <hr />
+
         {/* Note Taker */}
         <div className='row d-flex align-items-center justify-content-center'>
         <h2 className='header d-flex justify-content-start'>Note Taker</h2>
@@ -88,15 +89,15 @@ function Portfolio() {
 
         <hr />
 
-        {/* Password Generator */}
+        {/* Weather Watcher */}
         <div className='row d-flex align-items-center justify-content-center'>
-        <h2 className='header d-flex justify-content-start'>Password Generator</h2>
-          <img className='glow col-12 rounded border-color isabelline-bg p-3 gif' src="src/components/Portfolio/Byron's Password Generator.gif" alt="PasswordGenerator" />
+        <h2 className='header d-flex justify-content-start'>Weather Watcher</h2>
+          <img className='glow col-12 rounded border-color isabelline-bg p-3 gif' src="src/components/Portfolio/Weather Watcher.gif" alt="Weather Watcher" />
           <div className='column'>
             <h3>
-              <a href="https://byronontheboard.github.io/js-password-generator/" target="_blank" rel="noopener noreferrer">Password Generator</a>
+              <a href="https://byronontheboard.github.io/weather-web-app/" target="_blank" rel="noopener noreferrer">Weather Watcher</a>
             </h3>
-            <a href="https://github.com/byronontheboard/js-password-generator" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/byronontheboard/weather-web-app" target="_blank" rel="noopener noreferrer">
               <Icon></Icon>
             </a>
           </div>
