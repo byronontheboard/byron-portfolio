@@ -8,6 +8,7 @@ import Header from './components/Header'
 import Navigation from './components/Navigation'
 import Page from './components/Page'
 import Portrait from './components/Portrait';
+import Footer from './components/Footer';
 // import Project from './components/Project'
 // import Footer from './components/Footer'
 
@@ -47,6 +48,7 @@ function App() {
       <main className='d-grid gap-5'>
         <Portrait></Portrait>
         <Page currentPage = {currentPage}></Page>
+        <Footer></Footer>
       </main>
 
         {/* <div>

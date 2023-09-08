@@ -39,19 +39,19 @@ function Resume() {
           <h2 className='header d-flex justify-content-end'>EDUCATION</h2>
         </div>
         {/* University of California Davis Full-Stack Developer Cetification */}
-        <div className='row d-flex align-items-center'>
+        <div className='row d-flex align-items-center my-0 p-3 isabelline-bg border-color rounded'>
           <h2 className='header d-flex justify-content-start'>University of California Davis</h2>
           <p className='header d-flex justify-content-start'>Full-Stack Developer Certification</p>
           <p className='header d-flex justify-content-start'>March 2023-September 2023</p>
         </div>
         {/* Sacramento City College */}
-        <div className='row d-flex align-items-center'>
+        <div className='row d-flex align-items-center my-0 p-3 isabelline-bg border-color rounded'>
           <h2 className='header d-flex justify-content-startd'>Sacramento City College</h2>
           <p className='header d-flex justify-content-start'>Associate in Commercial Music, Audio Production</p>
           <p className='header d-flex justify-content-start'>August 2020-December 2022</p>
         </div>
         {/* Solano Community College */}
-        <div className='row d-flex align-items-center'>
+        <div className='row d-flex align-items-center my-0 p-3 isabelline-bg border-color rounded'>
           <h2 className='header d-flex justify-content-start'>Sacramento City College</h2>
           <p className='header d-flex justify-content-start'>Associates of Arts in Liberal Arts & Sciences Degree</p>
           <p className='header d-flex justify-content-start'>August 2018-July 2019</p>
