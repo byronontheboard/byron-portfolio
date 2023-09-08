@@ -31,6 +31,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.icon {
+  width: 32px; /* Adjust the size as needed */
+  height: 32px; /* Adjust the size as needed */
+}
+
 button {
   color: var(--ebony);
   outline: solid var(--ebony);

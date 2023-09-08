@@ -49,7 +49,8 @@ function About() {
           <img className='glow col-4 rounded border-color isabelline-bg p-3' src="src/components/About/Content/Collect.jpeg" alt="Collecting" />
           <div className='glow col-8'>
             <p className='my-0 p-3 isabelline-bg border-color rounded'>
-              "My given name is Benjamin Buford Blue, but people call me Bubba. Just like one of them ol' redneck boys. Can you believe that?" - Bubba Buford
+            In my free time, I find most of my enjoyment in collecting trading cards and 
+            frequently visiting my local card shop to partake in the games that these cards bring to the table.
             </p>
           </div>
         </div>
@@ -59,7 +60,13 @@ function About() {
           <h2 className='header d-flex justify-content-start'>AUDIO PRODUCTION</h2>
           <div className='glow col-8'>
             <p className='my-0 p-3 isabelline-bg border-color rounded'>
-              "My given name is Benjamin Buford Blue, but people call me Bubba. Just like one of them ol' redneck boys. Can you believe that?" - Bubba Buford
+              Beyond coding, another passion of mine that I thoroughly enjoy is the art of audio production and engineering. 
+              I've found profound satisfaction in the process of orchestrating sounds, much like solving a puzzle. 
+              
+              {/* Draft */}
+              {/* On top of coding, onother passion of mine that I enjoy is the art of audio production and engineering. 
+              I've always loved being able to put sonics together like a puzzle 
+              as well as being able to currate something that you can call your own. */}
             </p>
           </div>
 
