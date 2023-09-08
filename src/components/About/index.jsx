@@ -6,13 +6,30 @@ function About() {
   return (
     <section className="text container-fluid d-grid gap-5 rounded col-12">
         {/* Profile Picture */}
-        {/* <div className="profile-img row">
-          <i className="fas fa-user-circle" style={{ fontSize: "96px" }}>
-          </i>
-        </div> */}
+        {/* Space */}
         <div className='row justify-content-center'></div>    
 
         {/* <Portrait></Portrait> */}
+        <div className='row d-flex align-items-center justify-content-center'>
+          <div className='glow col-10'>
+            <p className='my-0 p-3 isabelline-bg border-color rounded'>
+              As a lifelong enthusiast of continuous learning, 
+              I have devoted myself to the philosophy of knowledge acquisition,
+              forever driven to extend upon the groundwork of yesterday.
+              <br />
+              <br />        
+              As a Full Stack Web Developer, I have unearthed a profound passion for the craft, 
+              wholeheartedly immersing myself into the boundless chasm of growth & creativity that this field can offer.
+            {/* Draft */}
+              {/* As an individual, I have committed myself to the philosophy of learning,
+              always yearning to build upon my knowledge of yesterday. */}
+              <br />
+              <br />        
+              {/* As a Full Stack Web Developer, I have discovered a love for the craft,  
+              dedicating myself to the endless opportunities of growth and creativity behind the code. */}
+            </p>
+          </div>
+        </div>
         <hr />
         {/* Personal */}
         <div className='row d-flex align-items-center'>
@@ -52,7 +69,7 @@ function About() {
               src="https://www.youtube.com/embed/kfGsWrjX47U"
               width="100%"
               height="100%"
-              title="YouTube Video" 
+              title="Audio Production" 
               type='video/mp4'
               controls
               allowFullScreen
