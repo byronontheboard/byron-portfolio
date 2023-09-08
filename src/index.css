@@ -27,14 +27,20 @@
   --melon: #e0afa0;
 }
 
+.gif {
+  height: 80%;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
-.icon {
-  width: 32px; /* Adjust the size as needed */
-  height: 32px; /* Adjust the size as needed */
-}
+/* .icon {
+  width: 32px; 
+  height: 32px; 
+} */
 
 button {
   color: var(--ebony);
