@@ -36,12 +36,13 @@ li {
 
 a {
   font-weight: 500;
-  color: #646cff;
   text-decoration: none;
 }
 a:hover {
-  color: #8A817C;
-  border: solid #8A817C;
+  transform: scale(.97);
+  transition: transform 0.2s ease-in-out;
+  /* color: #8A817C; */
+  /* border: solid #8A817C; */
 }
 
 body {

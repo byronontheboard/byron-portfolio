@@ -40,13 +40,11 @@ function About() {
             my time is often devoted to caring for my child, Keyana.
             </p>
           </div>
-          {/* Picture */}
           <img className='glow col-4 rounded border-color isabelline-bg p-3' src="src/components/About/Content/Dog.jpeg" alt="Keyana" />
         </div>
         <hr />
-        {/* Education */}
+
         <div className='row d-flex align-items-center'>
-          {/* Picture */}
           <h2 className='header d-flex justify-content-end'>TRADING CARDS</h2>
           <img className='glow col-4 rounded border-color isabelline-bg p-3' src="src/components/About/Content/Collect.jpeg" alt="Collecting" />
           <div className='glow col-8'>
@@ -80,6 +78,7 @@ function About() {
             <source src='src/components/About/Content/AUTUMN VIDEO.mp4' type='video/mp4'/>
           </video> */}
         </div>  
+        <hr />
     </section>
   );
 };

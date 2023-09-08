@@ -3,15 +3,19 @@ import React from 'react';
 function GitHub() {
 
   return (
-    <section className="my-5">
-      <div className="my-2">
-        <div className="profile-img my-5">
-        <i className="fas fa-user-circle" style={{ fontSize: "96px" }}></i>
+    <section className="text container-fluid d-grid gap-5 rounded col-12">
+        {/* Profile Picture */}
+        {/* Space */}
+        <div className='row justify-content-center'></div>    
+
+        {/* <Portrait></Portrait> */}
+        <div className='row d-flex align-items-center justify-content-center'>
+          <h2 className='header d-flex justify-content-start'>/byronontheboard</h2>
+          <a href="https://github.com/byronontheboard" target="_blank" rel="noopener noreferrer" className='glow'>
+            <img className='glow col-8 rounded border-color isabelline-bg p-3' src="src/components/GitHub/GitHub-Logo.jpeg" alt="Keyana" />
+          </a>
         </div>
-            <p>
-            "My mama always said, 'Life was like a box of chocolates. You never know what you're gonna get.'" -Forrest
-            </p>
-        </div>
+        <hr />
     </section>
   );
 };
