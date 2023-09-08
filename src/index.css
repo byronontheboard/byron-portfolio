@@ -26,6 +26,9 @@
   --isabelline: #f4f3ee;
   --melon: #e0afa0;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 li {
   list-style: none;

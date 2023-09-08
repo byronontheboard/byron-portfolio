@@ -15,16 +15,16 @@ function About() {
             <p className='my-0 p-3 isabelline-bg border-color rounded'>
               As a lifelong enthusiast of continuous learning, 
               I have devoted myself to the philosophy of knowledge acquisition,
-              forever driven to extend upon the groundwork of yesterday.
+              forever driven to expand upon the groundwork of yesterday.
               <br />
               <br />        
               As a Full Stack Web Developer, I have unearthed a profound passion for the craft, 
-              wholeheartedly immersing myself into the boundless chasm of growth & creativity that this field can offer.
+              wholeheartedly immersing myself into the boundless chasm of growth and creativity that this field can offer.
             {/* Draft */}
               {/* As an individual, I have committed myself to the philosophy of learning,
               always yearning to build upon my knowledge of yesterday. */}
-              <br />
-              <br />        
+              {/* <br /> */}
+              {/* <br />         */}
               {/* As a Full Stack Web Developer, I have discovered a love for the craft,  
               dedicating myself to the endless opportunities of growth and creativity behind the code. */}
             </p>
@@ -36,18 +36,19 @@ function About() {
           <h2 className='header d-flex justify-content-start'>MY CHILD</h2>
           <div className='glow col-8'>
             <p className='my-0 p-3 isabelline-bg border-color rounded'>
-              "My given name is Benjamin Buford Blue, but people call me Bubba. Just like one of them ol' redneck boys. Can you believe that?" - Bubba Buford
+            When I'm not with my family or partner, 
+            my time is often devoted to caring for my child, Keyana.
             </p>
           </div>
           {/* Picture */}
-          <img className='glow col-4 rounded border-color isabelline-bg p-3' src="src/components/About/Content/Dog.jpeg" alt="Description of the image" />
+          <img className='glow col-4 rounded border-color isabelline-bg p-3' src="src/components/About/Content/Dog.jpeg" alt="Keyana" />
         </div>
         <hr />
         {/* Education */}
         <div className='row d-flex align-items-center'>
           {/* Picture */}
           <h2 className='header d-flex justify-content-end'>TRADING CARDS</h2>
-          <img className='glow col-4 rounded border-color isabelline-bg p-3' src="src/components/About/Content/Collect.jpeg" alt="Description of the image" />
+          <img className='glow col-4 rounded border-color isabelline-bg p-3' src="src/components/About/Content/Collect.jpeg" alt="Collecting" />
           <div className='glow col-8'>
             <p className='my-0 p-3 isabelline-bg border-color rounded'>
               "My given name is Benjamin Buford Blue, but people call me Bubba. Just like one of them ol' redneck boys. Can you believe that?" - Bubba Buford
