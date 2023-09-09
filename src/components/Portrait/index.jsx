@@ -1,5 +1,5 @@
 import React from 'react';
-import portrait from './Content/Portrait.jpeg'
+import portrait from './Content/Portrait.jpg'
 
 function Portrait() {
   return (
