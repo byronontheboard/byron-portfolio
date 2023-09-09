@@ -1,5 +1,6 @@
 import React from 'react';
 // import Portrait from '../Portrait';
+import dog from './Content/Dog.jpeg'
 
 function About() {
 
@@ -40,7 +41,7 @@ function About() {
             my time is often devoted to caring for my child, Keyana.
             </p>
           </div>
-          <img className='glow col-4 rounded border-color isabelline-bg p-3' src="src/components/About/Content/Dog.jpeg" alt="Keyana" />
+          <img className='glow col-4 rounded border-color isabelline-bg p-3' src={dog} alt="Keyana" />
         </div>
         <hr />
 
