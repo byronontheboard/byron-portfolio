@@ -1,6 +1,7 @@
 import React from 'react';
 // import Portrait from '../Portrait';
 import dog from './Content/Dog.jpeg'
+import collect from './Content/Collect.jpeg'
 
 function About() {
 
@@ -47,7 +48,7 @@ function About() {
 
         <div className='row d-flex align-items-center'>
           <h2 className='header d-flex justify-content-end'>TRADING CARDS</h2>
-          <img className='glow col-4 rounded border-color isabelline-bg p-3' src="src/components/About/Content/Collect.jpeg" alt="Collecting" />
+          <img className='glow col-4 rounded border-color isabelline-bg p-3' src={collect} alt="Collecting" />
           <div className='glow col-8'>
             <p className='my-0 p-3 isabelline-bg border-color rounded'>
             In my free time, I find most of my enjoyment in collecting trading cards and 

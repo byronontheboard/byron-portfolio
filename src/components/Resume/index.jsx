@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from './Resume/Resume-2023.pdf'
 
 function Resume() {
 
@@ -101,7 +102,7 @@ function Resume() {
 
       <hr />
 
-      <a className='' href="src/components/Resume/Resume-2023.pdf" download="Resume-2023.pdf">
+      <a className='' href={resume} download="Resume-2023.pdf">
         Download My Resume
       </a>
   
